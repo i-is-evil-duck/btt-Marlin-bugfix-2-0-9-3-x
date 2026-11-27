@@ -96,6 +96,8 @@ The binary is written to:
 
 ## Flash
 
+A prebuilt `firmware.bin` is committed at the root of this repo.
+
 1. Copy `firmware.bin` to the root of a FAT32 SD card.
 2. Power off the board, insert the card, and power it back on.
 3. Marlin flashes the file and renames it `FIRMWARE.CUR`.
